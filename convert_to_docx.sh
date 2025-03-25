@@ -29,7 +29,6 @@ pandoc "$INPUT_FILE" \
     -t docx \
     -o "$OUTPUT_FILE" \
     --standalone \
-    --reference-doc="" \
     --toc \
     --toc-depth=2
 
